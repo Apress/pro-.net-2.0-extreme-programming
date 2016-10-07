@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{A33DFA75-C457-4DC5-A384-489D34707768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\NorthwindWeb\", "C:\development\projects\xpbook\Northwind\NorthwindWeb\", "{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}|BusinessLayer.dll;{A33DFA75-C457-4DC5-A384-489D34707768}|DataLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/NorthwindWeb"
+		Debug.AspNetCompiler.PhysicalPath = "NorthwindWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NorthwindWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "true"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NorthwindWeb"
+		Release.AspNetCompiler.PhysicalPath = "NorthwindWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NorthwindWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "true"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "38156"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLayer", "TestLayer\TestLayer.csproj", "{DE427537-EB88-45C7-83E8-529686C0A3AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed platforms = Debug|Mixed platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed platforms = Release|Mixed platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A33DFA75-C457-4DC5-A384-489D34707768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33DFA75-C457-4DC5-A384-489D34707768}.Debug|Mixed platforms.ActiveCfg = Debug|Any CPU
+		{A33DFA75-C457-4DC5-A384-489D34707768}.Debug|Mixed platforms.Build.0 = Debug|Any CPU
+		{A33DFA75-C457-4DC5-A384-489D34707768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33DFA75-C457-4DC5-A384-489D34707768}.Release|Mixed platforms.ActiveCfg = Release|Any CPU
+		{A33DFA75-C457-4DC5-A384-489D34707768}.Release|Mixed platforms.Build.0 = Release|Any CPU
+		{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}.Debug|Mixed platforms.ActiveCfg = Debug|Any CPU
+		{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}.Debug|Mixed platforms.Build.0 = Debug|Any CPU
+		{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}.Release|Mixed platforms.ActiveCfg = Release|Any CPU
+		{FE757E1A-61E9-4C22-BA01-2393DC52BEA0}.Release|Mixed platforms.Build.0 = Release|Any CPU
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Debug|Any CPU.Build.0 = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Debug|Mixed platforms.ActiveCfg = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Debug|Mixed platforms.Build.0 = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Release|Any CPU.Build.0 = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Release|Mixed platforms.ActiveCfg = Debug|.NET
+		{2FA08839-A9D0-44CE-9D6A-745AC187D9D2}.Release|Mixed platforms.Build.0 = Debug|.NET
+		{DE427537-EB88-45C7-83E8-529686C0A3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE427537-EB88-45C7-83E8-529686C0A3AF}.Debug|Mixed platforms.ActiveCfg = Debug|Any CPU
+		{DE427537-EB88-45C7-83E8-529686C0A3AF}.Debug|Mixed platforms.Build.0 = Debug|Any CPU
+		{DE427537-EB88-45C7-83E8-529686C0A3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE427537-EB88-45C7-83E8-529686C0A3AF}.Release|Mixed platforms.ActiveCfg = Release|Any CPU
+		{DE427537-EB88-45C7-83E8-529686C0A3AF}.Release|Mixed platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
